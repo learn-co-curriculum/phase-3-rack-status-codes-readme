@@ -1,10 +1,10 @@
-# HTTP Status Codes
+# Status Codes
 
-## Objectives
+## Learning Goals
 
-1. Define status codes and what they communicate to a client
-2. Describe the structure and various categories of status codes
-3. Set a response's status code in Rack 
+- Define status codes and what they communicate to a client
+- Describe the structure and various categories of status codes
+- Set a response's status code in Rack 
 
 
 ## Why Status Codes are Important for the Client
