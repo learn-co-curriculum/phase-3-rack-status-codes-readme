@@ -13,13 +13,33 @@ Status codes allow your server to tell something special to the client. The resp
 
 ### Status Code Chart
 
-Status Number | Code/Description
---------------|--------------------------
-1             | 1xx: Informational (request received and continuing process)
-2             | 2xx: Success (request successfully received, understood, and accepted)
-3             | 3xx: Redirection (further action must be taken to complete request)
-4             | 4xx: Client Error (request contains bad syntax and can't be completed)
-5             | 5xx: Server Error (server couldn't complete request)
+<table border="1" cellpadding="4" cellspacing="0">
+  <tr>
+    <th>Status Number</th>
+    <th>Code/Description</th>
+  </tr>
+  
+  <tr>
+    <td>1</td>
+    <td>1xx: Informational (request received and continuing process)</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2xx: Success (request successfully received, understood, and accepted)</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>3xx: Redirection (further action must be taken to complete request)</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>4xx: Client Error (request contains bad syntax and can't be completed)</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>5xx: Server Error (server couldn't complete request)</td>
+  </tr>
+</table>
 
 You've probably seen a bunch of these before, the most common being `404`. This means that the server couldn't find the route you requested.
 
